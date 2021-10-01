@@ -1,24 +1,9 @@
-// Created by Bryan Keller on 9/11/21.
-// Copyright © 2021 Airbnb Inc. All rights reserved.
-
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-// http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-
 import UIKit
 
 // MARK: - DayView
 
 /// A view that represents a day in the calendar.
-public final class DayView1: UIView {
+public final class CalendarDayView: UIView {
 
   // MARK: Lifecycle
 
@@ -182,7 +167,7 @@ public final class DayView1: UIView {
 
 // MARK: Accessibility
 
-extension DayView1 {
+extension CalendarDayView {
 
   public override var isAccessibilityElement: Bool {
     get { true }
@@ -199,7 +184,7 @@ extension DayView1 {
 // MARK: UIPointerInteractionDelegate
 
 @available(iOS 13.4, *)
-extension DayView1: UIPointerInteractionDelegate {
+extension CalendarDayView: UIPointerInteractionDelegate {
 
   public func pointerInteraction(
     _ interaction: UIPointerInteraction,
@@ -220,7 +205,7 @@ extension DayView1: UIPointerInteractionDelegate {
 
 // MARK: - DayView.ViewModel
 
-extension DayView1 {
+extension CalendarDayView {
 
   /// Encapsulates the data used to populate a `DayView`'s text label. Use a `DateFormatter` to create the
   /// `accessibilityLabel` string.
@@ -252,7 +237,7 @@ extension DayView1 {
 
 // MARK: - DayView.InvariantViewProperties
 
-extension DayView1 {
+extension CalendarDayView {
 
   /// Encapsulates configurable properties that change the appearance and behavior of `DayView`. These cannot be changed after a
   /// `DayView` is initialized.
@@ -329,16 +314,16 @@ extension DayView1 {
 
 // MARK: - DayView + CalendarItemViewRepresentable
 
-extension DayView1: CalendarItemViewRepresentable {
+extension CalendarDayView: CalendarItemViewRepresentable {
 
   public static func makeView(
     withInvariantViewProperties invariantViewProperties: InvariantViewProperties)
-    -> DayView1
+    -> CalendarDayView
   {
-    DayView1(invariantViewProperties: invariantViewProperties)
+    CalendarDayView(invariantViewProperties: invariantViewProperties)
   }
 
-  public static func setViewModel(_ viewModel: ViewModel, on view: DayView1) {
+  public static func setViewModel(_ viewModel: ViewModel, on view: CalendarDayView) {
     view.setViewModel(viewModel)
   }
 

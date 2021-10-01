@@ -44,7 +44,7 @@ final class PartialMonthVisibilityDemoViewController: DemoViewController {
       .withHorizontalDayMargin(8)
 
       .withDayItemModelProvider { [calendar, dayDateFormatter] day in
-        var invariantViewProperties = DayView1.InvariantViewProperties.baseInteractive
+        var invariantViewProperties = CalendarDayView.InvariantViewProperties.baseInteractive
 
         let date = calendar.date(from: day.components)
         if date == selectedDate {
@@ -52,7 +52,7 @@ final class PartialMonthVisibilityDemoViewController: DemoViewController {
 //          invariantViewProperties.backgroundShapeDrawingConfig.fillColor = .blue.withAlphaComponent(0.15)
         }
 
-        return CalendarItemModel<DayView1>(
+        return CalendarItemModel<CalendarDayView>(
           invariantViewProperties: invariantViewProperties,
           viewModel: .init(
             dayText: "\(day.day)",

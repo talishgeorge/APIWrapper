@@ -1,19 +1,4 @@
-// Created by Bryan Keller on 6/18/20.
-// Copyright © 2020 Airbnb Inc. All rights reserved.
 
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-// http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-
-//import HorizonCalendar
 import UIKit
 
 final class DayRangeSelectionDemoViewController: DemoViewController {
@@ -79,7 +64,7 @@ final class DayRangeSelectionDemoViewController: DemoViewController {
       .withHorizontalDayMargin(8)
 
       .withDayItemModelProvider { [calendar, dayDateFormatter] day in
-        var invariantViewProperties = DayView1.InvariantViewProperties.baseInteractive
+        var invariantViewProperties = CalendarDayView.InvariantViewProperties.baseInteractive
 
         let isSelectedStyle: Bool
         switch calendarSelection {
@@ -97,7 +82,7 @@ final class DayRangeSelectionDemoViewController: DemoViewController {
 
         let date = calendar.date(from: day.components)
 
-        return CalendarItemModel<DayView1>(
+        return CalendarItemModel<CalendarDayView>(
           invariantViewProperties: invariantViewProperties,
           viewModel: .init(
             dayText: "\(day.day)",
