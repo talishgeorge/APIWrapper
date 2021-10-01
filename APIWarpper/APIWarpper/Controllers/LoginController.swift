@@ -73,20 +73,20 @@ class LoginController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureUI()
-        let fabContainer = FloatingView(buttonImage: #imageLiteral(resourceName: "share"))
+        let fabContainer = FloatingView(buttonImage: #imageLiteral(resourceName: "icons8-plus-math-90"))
         view.addSubview(fabContainer)
         fabContainer.anchor(bottom: view.safeAreaLayoutGuide.bottomAnchor,
                             right: view.rightAnchor,
                             paddingBottom: 20, paddingRight: 20)
         fabContainer.delegate = self
         
-        fabContainer.addSecondaryButtonWith(image: #imageLiteral(resourceName: "twitter_logo_blue"), labelTitle: "Twitter", action: {
+        fabContainer.addSecondaryButtonWith(image: #imageLiteral(resourceName: "firebase-logo"), labelTitle: "Twitter", action: {
             print("Twitter")
         })
         fabContainer.addSecondaryButtonWith(image: #imageLiteral(resourceName: "firebase-logo"), labelTitle: "Firebase", action: {
             print("Firebase")
         })
-        fabContainer.addSecondaryButtonWith(image: #imageLiteral(resourceName: "btn_google_light_pressed_ios"), labelTitle: "Google", action: {
+        fabContainer.addSecondaryButtonWith(image: #imageLiteral(resourceName: "firebase-logo"), labelTitle: "Google", action: {
             print("Google")
         })
         

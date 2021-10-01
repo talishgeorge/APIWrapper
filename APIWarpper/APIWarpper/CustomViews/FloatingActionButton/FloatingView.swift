@@ -27,6 +27,7 @@ public class FloatingView: UIStackView {
     }
     
     private func configure() {
+        
         configureContainer()
         layoutUI()
     }
@@ -42,11 +43,25 @@ public class FloatingView: UIStackView {
     }
     
     @objc private func mainButtonAction() {
+        
+        if isMenuOnScreen {
+            UIView.animate(withDuration: 0.3) { [self] in
+                self.mainButton.layer.transform = CATransform3DMakeRotation(0, 0.0, 0.0, 1)
+                
+                //        self.overLayView.backgroundColor = UIColor.black.withAlphaComponent(0.5)
+            }
+        } else {
+            UIView.animate(withDuration: 0.3, animations: {
+                self.mainButton.layer.transform = CATransform3DMakeRotation(CGFloat(-M_PI_4), 0.0, 0.0, 1)                //self.overLayView.backgroundColor = UIColor.black.withAlphaComponent(0.0)
+            })
+        }
+        
         isMenuOnScreen ? stackView.dismissButtons() : stackView.showButtons()
         isMenuOnScreen.toggle()
     }
     
     private func layoutUI() {
+        stackView.mainButton = mainButton
         addArrangedSubview(stackView)
         addArrangedSubview(mainButton)
 
