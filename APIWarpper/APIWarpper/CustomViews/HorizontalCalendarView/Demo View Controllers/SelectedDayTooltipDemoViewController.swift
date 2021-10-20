@@ -51,6 +51,7 @@ final class SelectedDayTooltipDemoViewController: DemoViewController {
         let date = calendar.date(from: day.components)
         if date == selectedDate {
           invariantViewProperties.backgroundShapeDrawingConfig.borderColor = .blue
+            
 //          invariantViewProperties.backgroundShapeDrawingConfig.fillColor = .blue.withAlphaComponent(0.15)
         }
 

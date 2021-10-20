@@ -282,7 +282,7 @@ extension CalendarDayView {
     public var highlightShapeDrawingConfig: DrawingConfig = {
       let color: UIColor
       if #available(iOS 13.0, *) {
-        color = .systemFill
+        color = .red
       } else {
         color = .lightGray
       }

@@ -35,13 +35,12 @@ public final class CalendarView: UIView {
     (layer as! RenderInContextObservingLayer).willRenderInContext = { [weak self] in
       self?.sortScrollViewSublayersByZPositions()
     }
-
     if #available(iOS 13.0, *) {
-      backgroundColor = .systemBackground
+      backgroundColor = .systemBackground// calender view background view
     } else {
-      backgroundColor = .white
+      backgroundColor = .red
     }
-
+    
     addSubview(scrollView)
 
     setContent(initialContent)

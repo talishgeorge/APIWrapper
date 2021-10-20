@@ -39,11 +39,11 @@ final class DayRangeSelectionDemoViewController: DemoViewController {
   }
 
   override func makeContent() -> CalendarViewContent {
-    let startDate = calendar.date(from: DateComponents(year: 2020, month: 01, day: 01))!
-    let endDate = calendar.date(from: DateComponents(year: 2021, month: 12, day: 31))!
+    let startDate = calendar.date(from: DateComponents(year: 2021, month: 09, day: 01))!
+    let endDate = calendar.date(from: DateComponents(year: 2021, month: 11, day: 31))!
 
     let calendarSelection = self.calendarSelection
-    let dateRanges: Set<ClosedRange<Date>>
+    var dateRanges: Set<ClosedRange<Date>>
     if
       case .dayRange(let dayRange) = calendarSelection,
       let lowerBound = calendar.date(from: dayRange.lowerBound.components),
@@ -54,6 +54,11 @@ final class DayRangeSelectionDemoViewController: DemoViewController {
       dateRanges = []
     }
 
+    let lowerDate = calendar.date(from: DateComponents(year: 2021, month: 10, day: 03))!
+    let upperDate = calendar.date(from: DateComponents(year: 2021, month: 10, day: 07))!
+    let dateRangeToHighlight = lowerDate...upperDate
+    
+    dateRanges.insert(dateRangeToHighlight)
     return CalendarViewContent(
       calendar: calendar,
       visibleDateRange: startDate...endDate,
@@ -65,7 +70,7 @@ final class DayRangeSelectionDemoViewController: DemoViewController {
 
       .withDayItemModelProvider { [calendar, dayDateFormatter] day in
         var invariantViewProperties = CalendarDayView.InvariantViewProperties.baseInteractive
-
+        
         let isSelectedStyle: Bool
         switch calendarSelection {
         case .singleDay(let selectedDay):
@@ -78,6 +83,8 @@ final class DayRangeSelectionDemoViewController: DemoViewController {
 
         if isSelectedStyle {
           invariantViewProperties.backgroundShapeDrawingConfig.borderColor = .blue
+            invariantViewProperties.textColor = .white
+            invariantViewProperties.backgroundShapeDrawingConfig.fillColor = .black
         }
 
         let date = calendar.date(from: day.components)
@@ -89,13 +96,13 @@ final class DayRangeSelectionDemoViewController: DemoViewController {
             accessibilityLabel: date.map { dayDateFormatter.string(from: $0) },
             accessibilityHint: nil))
       }
-
-      .withDayRangeItemModelProvider(for: dateRanges) { dayRangeLayoutContext in
-        CalendarItemModel<DayRangeIndicatorView>(
-          invariantViewProperties: .init(),
-          viewModel: .init(
-            framesOfDaysToHighlight: dayRangeLayoutContext.daysAndFrames.map { $0.frame }))
-      }
+        
+        .withDayRangeItemModelProvider(for: dateRanges) { dayRangeLayoutContext in
+            CalendarItemModel<DayRangeIndicatorView>(
+                invariantViewProperties: .init(indicatorColor: UIColor.red),
+                viewModel: .init(
+                    framesOfDaysToHighlight: dayRangeLayoutContext.daysAndFrames.map { $0.frame }))
+        }
   }
 
   // MARK: Private

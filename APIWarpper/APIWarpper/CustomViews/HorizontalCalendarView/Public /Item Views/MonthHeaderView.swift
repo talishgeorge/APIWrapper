@@ -104,28 +104,30 @@ extension MonthHeaderView {
 
     // MARK: Lifecycle
 
-    private init() { }
-
+    //init() { }
+//    public init(backgroundColor: UIColor) {
+//      self.backgroundColor = backgroundColor
+//    }
     // MARK: Public
 
-    public static let base = InvariantViewProperties()
+    //public static let base = InvariantViewProperties()
 
     /// The background color of the entire view, unaffected by `edgeInsets`.
     public var backgroundColor = UIColor.clear
 
     /// Edge insets that change the position of the month's label.
-    public var edgeInsets = NSDirectionalEdgeInsets.zero
+    public var edgeInsets = NSDirectionalEdgeInsets(top: 10, leading: 0, bottom: -10, trailing: 0)//NSDirectionalEdgeInsets.zero
 
     /// The font of the month's label.
     public var font = UIFont.systemFont(ofSize: 22)
 
     /// The text alignment of the month's label.
-    public var textAlignment = NSTextAlignment.natural
+    public var textAlignment = NSTextAlignment.center
 
     /// The text color of the month's label.
     public var textColor: UIColor = {
       if #available(iOS 13.0, *) {
-        return .label
+        return .white
       } else {
         return .black
       }

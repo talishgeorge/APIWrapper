@@ -558,9 +558,645 @@
             filePath = "APIWarpper/CustomViews/CalendarView/CalendarViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
             landmarkName = "presentDetailViewForEvent(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CB8125E6-41D6-4BDE-85F8-C0087D20323B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/DemoPickerViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5EB16B48-CA55-4461-8DBA-DA6709922847"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/DayRangeIndicatorView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "InvariantViewProperties"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E248887A-AAEC-4A35-8216-C2849E00D9D3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Demo View Controllers/DayRangeSelectionDemoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "makeContent()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E384DE0-CB54-4F88-B014-C87467065ED7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Public /Item Views/DayOfWeekView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "init(invariantViewProperties:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B25D01A-8C3C-4DC9-AE4D-363A62ADF262"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Public /Item Views/DayView1.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "init(invariantViewProperties:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8880E02B-8850-4E67-B395-BAD03D207D9B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Public /Item Views/DayView1.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "init(invariantViewProperties:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B02F4840-EB24-4F5E-AD7F-BB322B1D902D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Public /Item Views/DayView1.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "touchesBegan(_:with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ACD0D3FF-1BB4-412E-B492-DEAF6AD8430D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Demo View Controllers/DayRangeSelectionDemoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C486DB6-00B9-4D3B-BB65-FFC135AEBDA7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Public /CalendarView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "630"
+            endingLineNumber = "630"
+            landmarkName = "configureView(_:with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "42EF50C1-31B5-44FB-A670-05DD756A1FB0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Public /Item Views/DayView1.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "252"
+            endingLineNumber = "252"
+            landmarkName = "Interaction"
+            landmarkType = "13">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8FB67822-9A7A-473D-AE9C-EF6DE8EB7230"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Demo View Controllers/SingleDaySelectionDemoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0727CC0-9592-4762-B53E-3DADE9F13EA8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Public /Item Views/DayView1.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "touchesEnded(_:with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0081C7C5-8745-41F2-B6B5-FCBF02E55C1F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Public /Item Views/DayOfWeekView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "init(invariantViewProperties:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A641084A-6428-40B8-9DE4-F38B8DED3AF5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Public /CalendarView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "631"
+            endingLineNumber = "631"
+            landmarkName = "configureView(_:with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C847B23-B1A2-405E-8603-77992DBD4BC7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Demo View Controllers/DayRangeSelectionDemoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "makeContent()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "737327BF-EC58-4589-A402-C89035181BBA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Demo View Controllers/DemoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "DemoViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "737327BF-EC58-4589-A402-C89035181BBA - 8be418958d319b6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "APIWarpper.DemoViewController.init(monthsLayout: APIWarpper.MonthsLayout) -&gt; APIWarpper.DemoViewController"
+                  moduleName = "APIWarpper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/talishgeorge/Documents/POC%20/POC%202021/APIWarpper/APIWarpper/CustomViews/HorizontalCalendarView/Demo%20View%20Controllers/DemoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "265">
+               </Location>
+               <Location
+                  uuid = "737327BF-EC58-4589-A402-C89035181BBA - fa0ce99c4f4dde08"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "APIWarpper.DemoViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;APIWarpper.DemoViewController&gt;"
+                  moduleName = "APIWarpper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/talishgeorge/Documents/POC%20/POC%202021/APIWarpper/APIWarpper/CustomViews/HorizontalCalendarView/Demo%20View%20Controllers/DemoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "146">
+               </Location>
+               <Location
+                  uuid = "737327BF-EC58-4589-A402-C89035181BBA - dee24b90d5469356"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "APIWarpper.DemoViewController.calendarView.getter : APIWarpper.CalendarView"
+                  moduleName = "APIWarpper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/talishgeorge/Documents/POC%20/POC%202021/APIWarpper/APIWarpper/CustomViews/HorizontalCalendarView/Demo%20View%20Controllers/DemoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "226">
+               </Location>
+               <Location
+                  uuid = "737327BF-EC58-4589-A402-C89035181BBA - f9efbd5988d4c742"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "APIWarpper.DemoViewController.calendarView.setter : APIWarpper.CalendarView"
+                  moduleName = "APIWarpper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/talishgeorge/Documents/POC%20/POC%202021/APIWarpper/APIWarpper/CustomViews/HorizontalCalendarView/Demo%20View%20Controllers/DemoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "737327BF-EC58-4589-A402-C89035181BBA - dccde1006065092a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "APIWarpper.DemoViewController.calendarView.modify : APIWarpper.CalendarView"
+                  moduleName = "APIWarpper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/talishgeorge/Documents/POC%20/POC%202021/APIWarpper/APIWarpper/CustomViews/HorizontalCalendarView/Demo%20View%20Controllers/DemoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "737327BF-EC58-4589-A402-C89035181BBA - aa031530ee3f0524"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "APIWarpper.DemoViewController.calendarView.modify : APIWarpper.CalendarView with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "APIWarpper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/talishgeorge/Documents/POC%20/POC%202021/APIWarpper/APIWarpper/CustomViews/HorizontalCalendarView/Demo%20View%20Controllers/DemoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "26">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0542BA15-786A-4A88-9417-36C17A62BDB2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Demo View Controllers/DayRangeSelectionDemoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE4E67EB-014B-4897-A507-3053AF86CD2E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Demo View Controllers/DemoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D2C0E3C8-480D-4AA4-AC72-929852D01E81"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Demo View Controllers/SingleDaySelectionDemoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "makeContent()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3EE192B-FA5E-40DB-B85A-1CA7226565E4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Public /CalendarView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "224"
+            endingLineNumber = "224"
+            landmarkName = "setContent(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "059DB523-9F0A-4348-BA32-B5B01BFDD002"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Demo View Controllers/SingleDaySelectionDemoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "makeContent()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BF297CD8-EDD1-497B-A604-09F0D87528C6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Internal/VisibleItemsProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "653"
+            endingLineNumber = "653"
+            landmarkName = "handleLayoutItem(_:inBounds:extendedBounds:isLookingBackwards:centermostLayoutItem:firstVisibleDay:lastVisibleDay:firstVisibleMonth:lastVisibleMonth:framesForVisibleMonths:framesForVisibleDays:contentStartBoundary:contentEndBoundary:visibleItems:calendarItemModelCache:originsForMonths:handledDayRanges:shouldStop:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF0155A3-5F68-4827-97DE-BEDC6825055B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Internal/VisibleItemsProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "176"
+            endingLineNumber = "176"
+            landmarkName = "detailsForVisibleItems(surroundingPreviouslyVisibleLayoutItem:offset:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9460FEBA-5A6F-4E7C-8636-AE207841E82B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Public /CalendarView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
+            landmarkName = "layoutSubviews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4901E44B-CDC9-43F8-8692-5F077D625705"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Internal/VisibleItemsProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "detailsForVisibleItems(surroundingPreviouslyVisibleLayoutItem:offset:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "58D931A1-5A95-40B0-B1FA-25F58E564204"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Internal/LayoutItemTypeEnumerator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "enumerateItemTypes(startingAt:itemTypeHandlerLookingBackwards:itemTypeHandlerLookingForwards:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DDCC8083-D838-48C4-A3C4-8EC99134B437"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Internal/Dictionary+MutatingValueForKey.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "value(for:missingValueProvider:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "781721FF-9173-4A98-8955-906C326F938E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Internal/VisibleItemsProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "656"
+            endingLineNumber = "656"
+            landmarkName = "handleLayoutItem(_:inBounds:extendedBounds:isLookingBackwards:centermostLayoutItem:firstVisibleDay:lastVisibleDay:firstVisibleMonth:lastVisibleMonth:framesForVisibleMonths:framesForVisibleDays:contentStartBoundary:contentEndBoundary:visibleItems:calendarItemModelCache:originsForMonths:handledDayRanges:shouldStop:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F765871D-616C-4A6F-983C-CF4DA4FF5AA1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Public /CalendarViewContent.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "231"
+            endingLineNumber = "231"
+            landmarkName = "withDayItemModelProvider(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F765871D-616C-4A6F-983C-CF4DA4FF5AA1 - bcd5eaf65413ea9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "APIWarpper.CalendarViewContent.withDayItemModelProvider((APIWarpper.Day) -&gt; APIWarpper.AnyCalendarItemModel) -&gt; APIWarpper.CalendarViewContent"
+                  moduleName = "APIWarpper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/talishgeorge/Documents/POC%20/POC%202021/APIWarpper/APIWarpper/CustomViews/HorizontalCalendarView/Public%20/CalendarViewContent.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "231"
+                  endingLineNumber = "231"
+                  offsetFromSymbolStart = "97">
+               </Location>
+               <Location
+                  uuid = "F765871D-616C-4A6F-983C-CF4DA4FF5AA1 - be5c42433b8bc61b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (APIWarpper.Day) -&gt; APIWarpper.InternalAnyCalendarItemModel in APIWarpper.CalendarViewContent.withDayItemModelProvider((APIWarpper.Day) -&gt; APIWarpper.AnyCalendarItemModel) -&gt; APIWarpper.CalendarViewContent"
+                  moduleName = "APIWarpper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/talishgeorge/Documents/POC%20/POC%202021/APIWarpper/APIWarpper/CustomViews/HorizontalCalendarView/Public%20/CalendarViewContent.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "231"
+                  endingLineNumber = "231"
+                  offsetFromSymbolStart = "41">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C2A2017-467D-4461-A0CB-EEADE5621031"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Internal/VisibleItemsProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "anchorMonthHeaderItem(for:offset:scrollPosition:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E944BAF4-A9A7-462D-93BE-CB9239DB007E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Internal/VisibleItemsProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "anchorDayItem(for:offset:scrollPosition:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "887DB82E-87DD-4C86-9E7D-136E7B7DC1A0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "APIWarpper/CustomViews/HorizontalCalendarView/Internal/VisibleItemsProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "902"
+            endingLineNumber = "902"
+            landmarkName = "correctedScrollToItemFrameForContentBoundaries(fromProposedFrame:ofTargetInMonth:withMonthFrame:bounds:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

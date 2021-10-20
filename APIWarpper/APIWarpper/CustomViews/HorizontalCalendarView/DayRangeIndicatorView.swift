@@ -73,7 +73,7 @@ final class DayRangeIndicatorView: UIView {
 extension DayRangeIndicatorView: CalendarItemViewRepresentable {
 
   struct InvariantViewProperties: Hashable {
-    var indicatorColor = UIColor.blue.withAlphaComponent(0.15)
+    var indicatorColor = UIColor.black.withAlphaComponent(0.15)
   }
 
   struct ViewModel: Equatable {

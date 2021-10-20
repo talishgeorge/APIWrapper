@@ -51,7 +51,7 @@ public final class CalendarViewContent {
       let firstDateInMonth = calendar.firstDate(of: month)
       let monthText = monthHeaderDateFormatter.string(from: firstDateInMonth)
       let itemModel = CalendarItemModel<MonthHeaderView>(
-        invariantViewProperties: .base,
+        invariantViewProperties: .init(backgroundColor: UIColor.darkGray),
         viewModel: .init(monthText: monthText, accessibilityLabel: monthText))
       return .itemModel(itemModel)
     }
